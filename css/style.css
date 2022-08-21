@@ -2,11 +2,10 @@
             ******** Fonts *********
 ==================================================== */
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Manrope&display=swap');
-/* font-family: 'Berkshire Swash', cursive;
-font-family: 'Manrope', sans-serif; */
 /* ====================================================
             ******** Fonts *********
 ==================================================== */
+
 
 /* ====================================================
             ******** utilities *********
@@ -26,20 +25,27 @@ body{
             ******** utilities *********
 ==================================================== */
 
+
+
 /* ====================================================
             ******** Top-banner *********
 ==================================================== */
-.banner-title{
+.top-banner-title{
     font-family: 'Berkshire Swash', cursive;
     color: rgba(255, 94, 25, 1);
-    position: relative;
+    font-size: 4.75rem;
 }
-.banner-line-marker{
+.top-banner-line-marker{
     position: relative;
-    top: -2%;
-    right: -55%;
+    top: -7%;
+    right: -75%;
 }
-
+.player-bg-top-banner-right{
+    background-image: url('/images/top-banner-right-background.png');
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: right 0 bottom 0;
+}
 /* ====================================================
             ******** Top-banner *********
 ==================================================== */
