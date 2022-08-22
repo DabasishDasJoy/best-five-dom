@@ -67,7 +67,7 @@
         ================================================================ -->
         <section id="player-selection" class="container">
             <div class="row row-cols-lg-2 row-cols-1 gy-4">
-                <div class="col-lg-9 col text-center">
+                <div class="col-lg-8 col text-center">
                     <!-- ===============================================================
                                     ******** Selection *********
                     ================================================================ -->
@@ -177,7 +177,7 @@
                 <!-- ===============================================================
                                     ******** Calculation *********
                 ================================================================ -->
-                <div class="col-lg-3 col">
+                <div class="col-lg-4 col">
                     <!-- ===========selected player========= -->
                     <div class="row row-cols-1 gy-4 text-white">
                         <div class="col player-bg-secondary py-4 selected-five">
@@ -201,24 +201,33 @@
                                 <div class="d-flex justify-content-between align-items-center">
                                     <span>Per Player</span>
                                     <input type="text" name="" id="budget-per-player"
-                                        class="w-50 player-bg-secondary border-white">
+                                        class="w-50 player-bg-secondary border-white text-white px-3">
                                 </div>
-                                <button id="btn-calculate" class="btn btn-primary w-100 rounded-0 my-3 fw-bold">Calculate</button>
+                                <button id="btn-calculate"
+                                    class="btn btn-primary w-100 rounded-0 my-3 fw-bold">Calculate</button>
                             </div>
                             <div class="fw-ligher fs-5 mt-4 px-3 text-center">
-                                <p>Player Expenses <span class="ms-5">$<span>0000</span></span></p>
                                 <div class="d-flex justify-content-between align-items-center">
+                                    <span>Player Expenses</span>
+                                    <span>$<span id="player-expenses">0000</span></span>
+                                </div>
+
+                                <div class="d-flex justify-content-between align-items-center mt-4">
                                     <span>Manager</span>
                                     <input type="text" name="" id="budget-per-player"
-                                        class="w-50 player-bg-secondary border-white">
+                                        class="w-50 player-bg-secondary border-white text-white px-3">
                                 </div>
                                 <div class="d-flex justify-content-between align-items-center mt-3">
                                     <span>Coach</span>
                                     <input type="text" name="" id="budget-per-player"
-                                        class="w-50 player-bg-secondary border-white">
+                                        class="w-50 player-bg-secondary border-white text-white px-3">
                                 </div>
-                                <button id="btn-calculate-total" class="btn btn-primary w-100 rounded-0 my-3 fw-bold">Calculate Total</button>
-                                <p>Total <span class="ms-5 text-danger">$<span>0000</span></span></p>
+                                <button id="btn-calculate-total"
+                                    class="btn btn-primary w-100 rounded-0 my-3 fw-bold">Calculate Total</button>
+                                    <div class="d-flex justify-content-between align-items-center mt-3">
+                                        <span>Total</span>
+                                        <span class="text-danger">$<span id="total-budget">0000</span></span>
+                                    </div>
                             </div>
                         </div>
                         <!-- ========================budget end============= -->
@@ -239,6 +248,7 @@
         crossorigin="anonymous"></script>
     <script src="js/utilities.js"></script>
     <script src="js/selection.js"></script>
+    <script src="js/budget.js"></script>
 </body>
 
 <footer class="player-bg-secondary text-white d-flex align-items-center justify-content-center">
