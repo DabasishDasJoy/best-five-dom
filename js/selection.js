@@ -5,13 +5,14 @@ for (const button of btnSelectButtons) {
 
         const numberOfPlayesSelected = getTotalNumberOfPlayers();
         // console.log(event.target.parentNode.parentNode.querySelector('.card-body').querySelector('.name').innerText);
+        // console.log(event.target.parentNode.parentNode.querySelector('.name').innerText);
 
         if (numberOfPlayesSelected < 5) {
             const selectedPlayer = event.target;
             const selectedPlayers = document.getElementById('selected-players');
 
             // retrieving selected player's name.
-            const PlayerName = event.target.parentNode.parentNode.querySelector('.card-body').querySelector('.name').innerText;
+            const PlayerName = event.target.parentNode.parentNode.querySelector('.name').innerText;
 
             // Add the player in the selected list.
             selectedPlayers.appendChild(createNewElement('li', PlayerName)).classList.add('mb-3');
