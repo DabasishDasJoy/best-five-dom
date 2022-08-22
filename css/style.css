@@ -60,3 +60,6 @@ body{
     font-size: 5px;
     vertical-align: middle;
 }
+.player-btn-select{
+    width: 85%;
+}
