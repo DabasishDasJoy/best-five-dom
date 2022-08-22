@@ -13,7 +13,7 @@
 body{
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
-    background-color: #434343;
+    background-color: #151515;
 }
 .player-bg-primary{
     background-color: #000000;
@@ -87,4 +87,5 @@ body{
 footer{
     border-top: 2px solid #717171;
     height: 100px;
+    background-color: #151515;
 }

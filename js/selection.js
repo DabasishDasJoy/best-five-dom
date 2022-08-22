@@ -21,7 +21,7 @@ for (const button of btnSelectButtons) {
             
         }
         else {
-            alert("You cannot pick more than five players");
+            alert("You cannot pick more than five players!");
         }
     });
 }
