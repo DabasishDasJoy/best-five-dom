@@ -89,3 +89,32 @@ footer{
     height: 100px;
     background-color: #151515;
 }
+
+/* ====================================================
+            ******** Footer *********
+==================================================== */
+
+/* ====================================================
+            ******** media query *********
+==================================================== */
+
+/* =================For Tablet Device============= */
+@media only screen and (min-width:769px) and (max-width:992px) {
+    .top-banner-line-marker{
+        right: -65%;
+    }
+    .player-bg-top-banner-right{
+        background-size: 25%;
+    }
+}
+
+/* =================For mobile Device================ */
+
+@media only screen and (max-width:769px) {
+    .top-banner-line-marker{
+        right: -25%;
+    }
+    .player-bg-top-banner-right{
+        background-size: 40%;
+    }
+}
