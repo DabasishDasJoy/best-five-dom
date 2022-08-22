@@ -1,6 +1,6 @@
-const btnSelectAll = document.getElementsByClassName('player-btn-select');
+const btnSelectButtons = document.getElementsByClassName('player-btn-select');
 
-for (const button of btnSelectAll) {
+for (const button of btnSelectButtons) {
     button.addEventListener('click', function (event) {
 
         const numberOfPlayesSelected = getTotalNumberOfPlayers();
