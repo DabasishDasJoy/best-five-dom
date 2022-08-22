@@ -4,3 +4,7 @@ function createNewElement(elementType, text) {
 
     return element;
 }
+
+function getTotalNumberOfPlayers(){
+    return document.querySelectorAll('ol li').length;
+}
