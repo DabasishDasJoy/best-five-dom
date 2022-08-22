@@ -15,8 +15,10 @@ for (const button of btnSelectAll) {
             // Add the player in the selected list.
             selectedPlayers.appendChild(createNewElement('li', PlayerName)).classList.add('mb-3');
 
-            //Disable the button after selecting
+            //Disable the button after selecting also change background
+            selectedPlayer.classList.replace('btn-primary', 'btn-secondary');
             selectedPlayer.setAttribute('disabled', true);
+            
         }
         else {
             alert("You cannot pick more than five players");
