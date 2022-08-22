@@ -41,7 +41,7 @@ body{
 .top-banner-line-marker{
     position: relative;
     top: -7%;
-    right: -75%;
+    right: -68%;
 }
 .player-bg-top-banner-right{
     background-image: url('/images/top-banner-right-background.png');
@@ -72,5 +72,9 @@ body{
 ==================================================== */
 
 /* ====================================================
-            ******** Budget *********
+            ******** Footer *********
 ==================================================== */
+footer{
+    border-top: 2px solid #717171;
+    height: 100px;
+}
