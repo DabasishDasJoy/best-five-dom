@@ -11,6 +11,7 @@ function getTotalNumberOfPlayers(){
 function getInputFieldValueById(fieldid){
     const field = document.getElementById(fieldid);
     const fieldValueString = field.value;
+    field.value = "";
     return parseFloat(fieldValueString);
 }
 function getElementValueById(elementId){
